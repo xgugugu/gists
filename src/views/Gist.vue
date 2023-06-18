@@ -6,7 +6,7 @@
                 <th>{{ name }}</th>
             </tr>
             <tr>
-                <td>{{ file.content }}</td>
+                <td style="padding:8px">{{ file.content }}</td>
             </tr>
         </table>
         <span>By {{ data.owner.login }}, updated at {{ new Date(data.updated_at).toLocaleString() }}</span>
